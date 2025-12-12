@@ -121,7 +121,7 @@ class Yatzy
      * @param int $d3
      * @param int $d4
      * @param int $d5
-     * @return array
+     * @return int[]
      */
     public static function getCounts(int $d1, int $d2, int $d3, int $d4, int $d5): array
     {
@@ -131,6 +131,7 @@ class Yatzy
         ++$counts[$d3 - 1];
         ++$counts[$d4 - 1];
         ++$counts[$d5 - 1];
+
         return $counts;
     }
 
