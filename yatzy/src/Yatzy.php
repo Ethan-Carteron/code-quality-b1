@@ -167,17 +167,6 @@ class Yatzy
         return $sum;
     }
 
-    public function sevens(): int
-    {
-        $sum = 0;
-        for ($at = 0; $at < 5; $at++) {
-            if ($this->dice[$at] === 7) {
-                $sum = $sum + 7;
-            }
-        }
-        return $sum;
-    }
-
     public function scorePair(int $d1, int $d2, int $d3, int $d4, int $d5): int
     {
         $counts = self::getCounts($d1, $d2, $d3, $d4, $d5);
