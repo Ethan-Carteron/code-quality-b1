@@ -1,15 +1,14 @@
 # Barème
-## Historique Git & commits (6 points)
+## Historique Git & commits (4 points)
 * **Micro-commits** cohérents, étapes visibles (**2 pts**)
 * **Conventional Commits** respectés (messages clairs, pas de `WIP`) (**2 pts**)
-* **Historique lisible** et progressif (**2 pts**)
 
 ---
 
-## Tests (5 points)
+## Tests (3 points)
 
-* Les **tests passent en permanence** pendant le refactoring (**3 pts**)
-* Les tests servent de **filet de sécurité** (pas supprimés/désactivés) (**2 pts**)
+* Les **tests passent en permanence** pendant le refactoring (**2 pts**)
+* Les tests servent de **filet de sécurité** (pas supprimés/désactivés) (**1 pt**)
 
 ---
 
@@ -21,10 +20,10 @@
 
 ---
 
-## Refactoring (5 points)
+## Refactoring (9 points)
 
-* **Amélioration réelle** de la lisibilité et de la maintenabilité (**2 pts**)
-* **Refactor adapté** (sans POO : fonctions, constantes, simplification) (**2 pts**)
+* **Amélioration réelle** de la lisibilité et de la maintenabilité (**5 pts**)
+* **Refactor adapté** (fonctions, constantes, simplification) (**3 pts**)
 * **Tests refactorés si nécessaire**, proprement (**1 pt**)
 
 ---
